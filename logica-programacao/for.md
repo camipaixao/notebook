@@ -69,3 +69,18 @@ for( var i = 0; i < 10; i++ ) {
   alert( "O resultado é " + (2 * i) );
 }
 ```
+
+E que tal criarmos um loop dentro do outro? Sim, isso é possível! Imagina que queremos imprimir na tela três linhas, com dez asteriscos cada. Para isso, vamos dividir o código em colunas e linhas! Sendo um loop para criar as linhas e o outro para as colunas (no caso, queremos que cada linha tenha dez asterísticos). O código ficaria assim:
+
+```javascript
+function pulaLinha() {
+  document.write("<br>");
+}
+
+for(var linha = 1; linha <= 3; linha++) {
+  for(var coluna = 1; coluna <= 10; coluna++) {
+    document.write("*");
+  }
+  pulaLinha();
+}
+```
