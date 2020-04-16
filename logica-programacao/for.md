@@ -1,4 +1,4 @@
-# Do for para while :sparkles:
+# Do while para for :sparkles:
 Se usarmos um exemplo para criação da tabuada de 7, poderíamos fazer o seguinte código utilizando while
 
 ```javascript
