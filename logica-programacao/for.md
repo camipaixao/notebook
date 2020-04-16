@@ -40,7 +40,7 @@ mostra("fim");
 
 Ou seja, existe a variável, a condição dessa variável e o incremento. Se não houver uma condição, o loop vai ser eterno. Precisa sempre tomar cuidado.
 
-### Ainda dá para melhorar :sunglasses:
+### Ainda dá para melhorar. Vamos usar o pós incremento? :sunglasses:
 
 Queremos sempre escrever menos, não é? Para incrementar, é só usar o ++. Ele vai funcionar da mesma forma que multiplicador = multiplicador + 1. O nome disso é **pós incremento**. Olha que lecau:
 
@@ -69,6 +69,8 @@ for( var i = 0; i < 10; i++ ) {
   alert( "O resultado é " + (2 * i) );
 }
 ```
+
+### E que tal loops aninhados?
 
 E que tal criarmos um loop dentro do outro? Sim, isso é possível! Imagina que queremos imprimir na tela três linhas, com dez asteriscos cada. Para isso, vamos dividir o código em colunas e linhas! Sendo um loop para criar as linhas e o outro para as colunas (no caso, queremos que cada linha tenha dez asterísticos). O código ficaria assim:
 
